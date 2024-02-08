@@ -27,5 +27,5 @@ The server code requires Python version 3.7 or later. The Lisp code has only bee
 but should run in any recent, modern Common Lisp implementation that supports `usocket` (e.g., CCL).
 
 Requirements:
-Python version 3.7 or later and 'socket', 'json', and 'random' packages
+Python version 3.7 or later and 'socket', 'json', and 'random' packages  
 Common Lisp (e.g., SBCL or CCL) and Quiklisp installed
