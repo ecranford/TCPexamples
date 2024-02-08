@@ -10,13 +10,13 @@ as a JSON object, and sends it, again line delimited, to the Python process. Bot
 lines about what is going on.
 
 To run this
-- first in a Lisp listener load `server.lisp`
-    e.g. in a terminal window, navigate to the directory where the file exists and type:
-        sbcl --load "server.lisp"
-    (you should see a blank line, and blinking cursor, indicating the server is up and awaiting input)
+- first in a Lisp listener load `server.lisp` 
+    e.g. in a terminal window, navigate to the directory where the file exists and type: 
+        sbcl --load "server.lisp" 
+    (you should see a blank line, and blinking cursor, indicating the server is up and awaiting input) 
 
-- then open a terminal window, navigate to the directory where the file exists and run `python client.py`
-    (you should see a prompt asking you to enter a word for which you may then enter any word)
+- then open a terminal window, navigate to the directory where the file exists and run `python client.py` 
+    (you should see a prompt asking you to enter a word for which you may then enter any word) 
 
 To exit
 - exit `server.lisp` by pressing 'ctrl-break' or 'ctrl-pause'
