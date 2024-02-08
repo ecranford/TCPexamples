@@ -11,9 +11,19 @@ lines about what is going on.
 
 To run this
 
-- first open a terminal window and run `python server.py`
+- first open a terminal window and run `python server.py`  
+    (you should see a blank line, and blinking cursor, indicating the server is up and awaiting input)  
 
-- then in a Lisp listener load `client.lisp` and call `(run)`
+- then in a Lisp listener load `client.lisp` and call `(run)`  
+    (the client will run once; you can run the client again by typing `(run)` again)
 
-The server code requires Python version 3.7 or later. The Lisp code has only be tested in SBCL version 2.1.10, but
-should run in any recent, modern Common Lisp implementation that supports `usocket`.
+To exit  
+- exit `client.lisp` by typing '(exit)' and press 'return'  
+- exit `server.py` by pressing 'ctrl-c'  
+
+
+The server code requires Python version 3.7 or later. The Lisp code has only been tested in SBCL version 2.1.10, but should run in any recent, modern Common Lisp implementation that supports `usocket` (e.g., CCL).
+
+Requirements:  
+Python version 3.7 or later and 'socketserver', 'json', and 'math' packages  
+Common Lisp (e.g., SBCL or CCL) and Quiklisp installed  

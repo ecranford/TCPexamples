@@ -19,13 +19,12 @@ To run this
     (you should see a prompt asking you to enter a word for which you may then enter any word)  
 
 To exit
-- exit `server.lisp` by pressing 'ctrl-break' or 'ctrl-pause'
-- exit `client.py` by returning a null '' response when prompted for a word, or by pressing 'ctrl-c' at any time
+- exit `server.lisp` by pressing 'ctrl-break' or 'ctrl-pause'  
+- exit `client.py` by returning a null '' response when prompted for a word, or by pressing 'ctrl-c' at any time  
 
 
-The server code requires Python version 3.7 or later. The Lisp code has only been tested in SBCL version 2.1.10, 
-but should run in any recent, modern Common Lisp implementation that supports `usocket` (e.g., CCL).
+The server code requires Python version 3.7 or later. The Lisp code has only been tested in SBCL version 2.1.10, but should run in any recent, modern Common Lisp implementation that supports `usocket` (e.g., CCL).
 
 Requirements:  
 Python version 3.7 or later and 'socket', 'json', and 'random' packages  
-Common Lisp (e.g., SBCL or CCL) and Quiklisp installed
+Common Lisp (e.g., SBCL or CCL) and Quiklisp installed  
